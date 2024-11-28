@@ -2,9 +2,9 @@ package dev.juanito;
 
 public interface CalculateExtract {
 
-    public void DepositMoney() {}
-    public float WithdrawMoney() {}
-    float CalculateExtract() {}
-    String Print() {}
+    void depositMoney(float amount);
+    float withdrawMoney(float amount);
+    void makeExtracts();
+    String print();
 
 }
